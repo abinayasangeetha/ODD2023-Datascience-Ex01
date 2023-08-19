@@ -4,11 +4,11 @@
 ## AIM:
 To read the given data and perform data cleaning and save the cleaned data to a file. 
 
-# Explanation:
+## Explanation:
 Data cleaning is the process of preparing data for analysis by removing or modifying data that is incorrect ,incompleted , irrelevant , duplicated or improperly formatted. 
 Data cleaning is not simply about erasing data ,but rather finding a way to maximize datasets accuracy without necessarily deleting the information. 
 
-# ALGORITHM:
+## ALGORITHM:
 ### STEP 1
 Read the given Data
 ### STEP 2
@@ -18,7 +18,7 @@ Remove the null values from the data
 ### STEP 4
 Save the Clean data to the file
 
-# CODE:
+### CODE:
 # For Data_set:
 ```
 import pandas as pd
@@ -83,15 +83,15 @@ df.info()
 
 df.isnull().sum()
 ```
-### OUTPUT:
-## For Data_set:
+#### OUTPUT:
+### For Data_set:
 # Data
 ![Data](https://github.com/abinayasangeetha/ODD2023-Datascience-Ex01/assets/119393675/ba01b39f-48f8-4654-bbb5-911cb3af7b7e)
 ![Data2](https://github.com/abinayasangeetha/ODD2023-Datascience-Ex01/assets/119393675/5e843989-d3dc-4266-88d8-8a25e73016c7)
 
 
 # NonNull before:
-!![NONNULL 1](https://github.com/abinayasangeetha/ODD2023-Datascience-Ex01/assets/119393675/de91fe02-7ca2-47e4-913d-ec89d305dc44)
+![NONNULL 1](https://github.com/abinayasangeetha/ODD2023-Datascience-Ex01/assets/119393675/de91fe02-7ca2-47e4-913d-ec89d305dc44)
 ![NONNULL 2](https://github.com/abinayasangeetha/ODD2023-Datascience-Ex01/assets/119393675/5a55e8c5-b1d2-484a-9b26-f541f35eec69)
 ![NONNULL 3](https://github.com/abinayasangeetha/ODD2023-Datascience-Ex01/assets/119393675/4be8e142-a282-4506-b686-65e099d84f05)
 
