@@ -19,7 +19,7 @@ Remove the null values from the data
 Save the Clean data to the file
 
 # CODE:
-#For Data_set:
+# For Data_set:
 ```
 import pandas as pd
 df=pd.read_csv("/content/Data_set(1).csv")
