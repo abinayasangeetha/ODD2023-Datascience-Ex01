@@ -83,7 +83,7 @@ df.info()
 
 df.isnull().sum()
 ```
-#### OUTPUT:
+## OUTPUT:
 ### For Data_set:
 # Data
 ![Data](https://github.com/abinayasangeetha/ODD2023-Datascience-Ex01/assets/119393675/ba01b39f-48f8-4654-bbb5-911cb3af7b7e)
